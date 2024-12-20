@@ -1,0 +1,30 @@
+/* stylelint-disable declaration-no-important */
+// scss-docs-start caret-mixins
+
+@mixin sym-config-pseudo($icon){
+  display: inline-block;
+  font-family: quantum-symbols !important;
+  font-style: normal;
+  font-weight: 400 !important;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align: -.15em;
+  content: $icon !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+@mixin caret-down($width: $caret-width) {
+  @include sym-config-pseudo($sym-var-chevron-down);
+}
+
+@mixin caret-up($width: $caret-width) {
+  @include sym-config-pseudo($sym-var-chevron-up);
+}
+
+@mixin caret-end($width: $caret-width) {
+  @include sym-config-pseudo($sym-var-chevron-right);
+}
+
+@mixin caret-start($width: $caret-width) {
+  @include sym-config-pseudo($sym-var-chevron-left);
+}

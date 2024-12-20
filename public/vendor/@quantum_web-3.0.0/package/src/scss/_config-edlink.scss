@@ -1,0 +1,15 @@
+/* stylelint-disable scss/dollar-variable-default */
+@import "https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap";
+
+@import "pkg:bootstrap/scss/functions";
+@import "./variables-base";
+$primary: $edlink;
+@import "pkg:bootstrap/scss/variables";
+@import "pkg:bootstrap/scss/variables-dark";
+@import "./variables-modify";
+@import "pkg:@quantum/symbols/font/quantum-symbols";
+@import "pkg:bootstrap/scss/maps";
+@import "pkg:bootstrap/scss/mixins";
+@import "./mixins";
+@import "pkg:bootstrap/scss/utilities";

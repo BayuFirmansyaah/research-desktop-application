@@ -1,0 +1,137 @@
+/* stylelint-disable scss/dollar-variable-default */
+//Grid
+$enable-cssgrid: true;
+
+//Colors
+$edlink-100:  #ddf9e4;
+$edlink-200: #c7f4d3;
+$edlink-300: #93dc9b;
+$edlink-400: #4cc250;
+$edlink-500: #009c1f;
+$edlink-600: #1d7a10;
+$edlink-700: #10520c;
+$edlink-800: #074512;
+$edlink-900: #052e0c;
+$edlink: $edlink-500;
+
+$siakad-100:  #e5eeff;
+$siakad-200: #d6e5ff;
+$siakad-300: #70acff;
+$siakad-400: #277af6;
+$siakad-500: #0f6af5;
+$siakad-600: #0953c4;
+$siakad-700: #06439d;
+$siakad-800: #073a89;
+$siakad-900: #021531;
+$siakad: $siakad-500;
+
+$indigo-100: #f7e6f9;
+$indigo-200: #f2d6f5;
+$indigo-300: #de83ec;
+$indigo-400: #cc3ce2;
+$indigo-500: #bd20d5;
+$indigo-600: #9d1cb1;
+$indigo-700: #771f84;
+$indigo-800: #681b74;
+$indigo-900: #250a29;
+$indigo: $indigo-500;
+
+$purple-100: #f5f0ff;
+$purple-200: #e5dafb;
+$purple-300: #ad84eb;
+$purple-400: #925be4;
+$purple-500: #8649e1;
+$purple-600: #6922d3;
+$purple-700: #571daf;
+$purple-800: #3d157b;
+$purple-900: #16072c;
+$purple: $purple-500;
+
+$red-100: #ffebeb;
+$red-200: #ffdccb;
+$red-300: #fa7587;
+$red-400: #f82640;
+$red-500: #dc0822;
+$red-600: #c50620;
+$red-700: #9e0518;
+$red-800: #770513;
+$red-900: #310208;
+$red: $red-500;
+
+$orange-100: #feee81;
+$orange-200: #fee0c8;
+$orange-300: #feb172;
+$orange-400: #fd9a48;
+$orange-500: #fd7e17;
+$orange-600: #de6501;
+$orange-700: #b65300;
+$orange-800: #8d4001;
+$orange-900: #331700;
+$orange: $orange-500;
+
+$yellow-100: #fff5cc;
+$yellow-200: #fcf3a6;
+$yellow-300: #fde77c;
+$yellow-400: #fdd93b;
+$yellow-500: #ffb706;
+$yellow-600: #e4a100;
+$yellow-700: #b27400;
+$yellow-800: #7a4d00;
+$yellow-900: #332000;
+$yellow: $yellow-500;
+
+$green-100: #e3f7e5;
+$green-200: #caf9c8;
+$green-300: #86e78a;
+$green-400: #59d05f;
+$green-500: #35b444;
+$green-600: #2b9738;
+$green-700: #1c6d26;
+$green-800: #185f20;
+$green-900: #0a290e;
+$green: $green-500;
+
+$cyan-100: #daf4fc;
+$cyan-200: #c3edf9;
+$cyan-300: #7adaf6;
+$cyan-400: #2ec6ef;
+$cyan-500: #0ea7d2;
+$cyan-600: #0e89ac;
+$cyan-700: #0a6b86;
+$cyan-800: #065b72;
+$cyan-900: #02232c;
+$cyan: $cyan-500;
+
+$gray-100: #f6f8fa;
+$gray-200: #eceff3;
+$gray-300: #dfe1e6;
+$gray-400: #c1c7cf;
+$gray-500: #a4abb8;
+$gray-600: #808897;
+$gray-700: #666d80;
+$gray-800: #272835;
+$gray-900: #0d0d12;
+
+$color-contrast-dark:      #fff;
+$color-contrast-light:      #fff;
+
+//Radius
+$border-radius:               .625rem;
+$border-radius-sm:            .5rem;
+$border-radius-lg:            .75rem;
+$border-radius-xl:            1rem;
+$border-radius-xxl:           2rem;
+
+//font
+$font-family-sans-serif: "Inter", sans-serif;
+$font-family-monospace: "Roboto Mono", monospace;
+
+//font-size
+$font-size-base: .875rem;
+$font-size-lg: 1.125rem;
+$font-size-sm: .75rem;
+
+//Table
+$table-cell-padding-y: .375rem;
+$table-color: $gray-700;
+

@@ -1,0 +1,15 @@
+@import "pkg:bootstrap/scss/breadcrumb";
+
+.breadcrumb-item + .breadcrumb-item::before {
+  @include sym-config-pseudo($sym-var-chevron-right);
+}
+
+.breadcrumb-item{
+  a{
+    text-decoration: none;
+
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}

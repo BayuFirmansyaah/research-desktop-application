@@ -1,0 +1,29 @@
+@import "pkg:bootstrap/scss/buttons";
+
+.btn{
+  --bs-btn-font-weight: 500;
+}
+
+.btn.btn-outline-secondary{
+  --bs-btn-bg: #{$white};
+  --bs-btn-color: #{$gray-800};
+  --bs-btn-border-color: #{$gray-300};
+}
+
+.btn.btn-primary{
+  --bs-btn-color: #{$color-contrast-light};
+  --bs-btn-hover-color: #{$color-contrast-light};
+  --bs-btn-active-color: #{$color-contrast-light};
+}
+
+.btn.btn-icon{
+  height: #{calc((var(--bs-btn-font-size) * var(--bs-btn-line-height)) + (var(--bs-btn-padding-y) * 2) + var(--bs-btn-border-width))};
+  aspect-ratio: 1/1;
+  padding: 0;
+
+  > i:only-child,
+  > svg:only-child,
+  > .sym:only-child{
+    font-size: 1.25em;
+  }
+}

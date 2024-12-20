@@ -1,0 +1,30 @@
+/* stylelint-disable scss/dollar-variable-default */
+@use "sass:map";
+$colors: map.merge(
+  $colors,
+  (
+    "edlink": $edlink,
+    "siakad": $siakad,
+  )
+);
+
+$font-sizes: map.merge(
+  $font-sizes,
+  (
+    7: .75rem
+  )
+);
+
+$spacers: map.merge(
+  $spacers,
+  (
+    2\.5: .75rem
+  )
+); 
+
+$container-max-widths: map.merge(
+  $container-max-widths,
+  (
+    xxl: 1224px
+  )
+);
