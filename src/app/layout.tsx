@@ -29,6 +29,8 @@ export default function RootLayout({
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
+
+        <script src="/vendor/@quantum_web-3.0.0/package/dist/js/quantum.min.js"></script>
       </body>
     </html>
   );

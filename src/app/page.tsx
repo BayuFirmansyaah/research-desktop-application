@@ -22,29 +22,12 @@ export default function Home() {
           </div>
 
           <div className="w-100 m-auto py-5" style={{ maxWidth: "26.75rem"}}>
-            <h2 className="fs-4 fw-semibold mb-2">Masuk ke SiakadCloud</h2>
+            <h2 className="fs-4 fw-semibold mb-2">Masuk ke Profeeder</h2>
             <p className="text-body-secondary mb-4">
               Masuk ke akun yang telah terdaftar untuk merevolusi dunia pendidikan
               yang lebih baik.
             </p>
-            <button type="button" className="btn btn-outline-secondary w-100">
-              <span className="me-1">
-                <Image
-                  src="/image/google.svg"
-                  alt="Login Google Icon"
-                  width={19}
-                  height={19}
-                />
-              </span>
-              Sign In dengan Google
-            </button>
-            <div className="d-flex align-items-center gap-2 my-4">
-              <hr className="w-100 m-0" />
-              <p className="text-secondary m-0" style={{ minWidth: "fit-content" }}>
-                atau login dengan Email
-              </p>
-              <hr className="w-100 m-0" />
-            </div>
+
             <form action="./list.html" className="row row-cols-1 g-3">
               <div className="col">
                 <label className="form-label">
@@ -101,10 +84,6 @@ export default function Home() {
               </div>
               <div className="col mt-4">
                 <button type="submit" className="btn btn-primary w-100">Sign In</button>
-                <p className="text-center mb-0 mt-3">
-                  Belum punya akun?
-                  <a className="fw-semibold" href="#">Daftar di sini</a>
-                </p>
               </div>
             </form>
           </div>
