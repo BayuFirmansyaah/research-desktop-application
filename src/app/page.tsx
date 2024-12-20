@@ -1,11 +1,26 @@
+"use client";
+
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter();
+
+  const handleLogin = () => {
+    const isLoginSuccessful = true; 
+
+    if (isLoginSuccessful) {
+      router.push('/dashboard'); 
+    } else {
+      alert('Login failed. Please check your credentials.');
+    }
+  };
+
   return (
     <main>
       <div className="grid min-vh-100">
         <div className="g-col-12 g-col-lg-6 p-4 d-flex flex-column">
-          
+        
           <div className="d-flex align-items-center gap-3">
             <div className="ratio ratio-1x1" style={{ maxWidth: "3rem" }}>
               <Image
@@ -22,13 +37,13 @@ export default function Home() {
           </div>
 
           <div className="w-100 m-auto py-5" style={{ maxWidth: "26.75rem"}}>
-            <h2 className="fs-4 fw-semibold mb-2">Masuk ke Profeeder</h2>
+            <h2 className="fs-4 fw-semibold mb-2">Masuk ke Profeeder  </h2>
             <p className="text-body-secondary mb-4">
               Masuk ke akun yang telah terdaftar untuk merevolusi dunia pendidikan
               yang lebih baik.
             </p>
 
-            <form action="./list.html" className="row row-cols-1 g-3">
+            <div className="row row-cols-1 g-3">
               <div className="col">
                 <label className="form-label">
                   Email
@@ -83,9 +98,9 @@ export default function Home() {
                 </a>
               </div>
               <div className="col mt-4">
-                <button type="submit" className="btn btn-primary w-100">Sign In</button>
+                <button className="btn btn-primary w-100" onClick={handleLogin} >Sign In</button>
               </div>
-            </form>
+            </div>
           </div>
 
           <div className="container-fluid mt-auto bg-white border-top">
