@@ -28,9 +28,10 @@ export default function RootLayout({
         <link rel="stylesheet" href="/vendor/@quantum_web-3.0.0/package/dist/css/quantum.min.css" />
         <link rel="stylesheet" href="/vendor/@quantum_symbols-1.0.0/package/font/quantum-symbols.css" />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+      <body>
 
+        {children}
+       
         <Script 
           src="/vendor/bootstrap-5.3.3/js/bootstrap.bundle.min.js"
           strategy="afterInteractive"
