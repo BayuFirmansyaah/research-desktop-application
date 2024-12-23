@@ -195,7 +195,7 @@ export default function Navbar() {
                                         aria-current="page"
                                         href="#"
                                     >
-                                        Beranda
+                                        Konfigurasi
                                     </a>
                                 </li>
                                 <li className="nav-item dropdown">
@@ -206,7 +206,7 @@ export default function Navbar() {
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
-                                        Portal
+                                        Referensi
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li><a className="dropdown-item" href="#">List</a></li>
@@ -239,7 +239,7 @@ export default function Navbar() {
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
-                                        Perkuliahan
+                                        Akademik
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li><a className="dropdown-item" href="#">Action</a></li>
@@ -275,7 +275,7 @@ export default function Navbar() {
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
-                                        Kampus Merdeka
+                                        MBKM
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li><a className="dropdown-item" href="#">Action</a></li>
@@ -293,7 +293,7 @@ export default function Navbar() {
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
-                                        Data Pelengkap
+                                        Proses Masal
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li><a className="dropdown-item" href="#">Action</a></li>
@@ -311,7 +311,7 @@ export default function Navbar() {
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
-                                        Laporan
+                                        Sister
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li><a className="dropdown-item" href="#">Action</a></li>
@@ -329,7 +329,7 @@ export default function Navbar() {
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
-                                        Pengaturan
+                                        Pelaporan
                                     </a>
                                     <ul className="dropdown-menu">
                                         <li><a className="dropdown-item" href="#">Action</a></li>
