@@ -12,8 +12,6 @@ export default class WS {
         if(!this.username || !this.password){
             throw new Error("WS credentials not found");
         }
-
-        this.loadToken()
     }
 
     private async loadToken(): Promise<void> {
@@ -45,7 +43,7 @@ export default class WS {
             await this.generateToken();
         }
     }
-    
+
     public async generateToken(): Promise<void> {
         try {
             const result = await fetch(this.url, {
@@ -111,13 +109,8 @@ export default class WS {
 
     public async ws2RunLoop(act: string, data: object): Promise<any> {
         try {
+            await this.loadToken();
            
-            if(!this.wsIsConnected()){
-                this.generateToken()
-            }else{
-                this.loadToken()
-            }
-
             const params = {
                 act,
                 ...data,
