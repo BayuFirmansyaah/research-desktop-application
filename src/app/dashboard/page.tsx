@@ -1,7 +1,26 @@
+"use client";
+
+import React, { useEffect, useState } from "react";
 import Tables from "@/components/Tables"
 import Navbar from "@/components/Navbar"
+import WS from "@/utils/WS"
 
 export default function Dashboard() {
+
+    const [data, setData] = useState(null);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+    
+    useEffect(() => {
+        const fetchData = async () => {
+            const ws = new WS();
+            await ws.generateToken();
+            console.log('Token', ws.getToken());
+        }
+
+        fetchData();
+    })
+
     return (
         <>
             <Navbar />
