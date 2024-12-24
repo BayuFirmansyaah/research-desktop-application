@@ -14,8 +14,7 @@ export default function Dashboard() {
     useEffect(() => {
         const fetchData = async () => {
             const ws = new WS();
-            await ws.generateToken();
-            console.log('Token', ws.getToken());
+            let biodata = await ws.ws2RunLoop("GetListRiwayatPendidikanMahasiswa", {filter: "1=1", limit: 10});
         }
 
         fetchData();
