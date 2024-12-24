@@ -28,7 +28,7 @@ export default function RootLayout({
         <link rel="stylesheet" href="/vendor/@quantum_web-3.0.0/package/dist/css/quantum.min.css" />
         <link rel="stylesheet" href="/vendor/@quantum_symbols-1.0.0/package/font/quantum-symbols.css" />
       </head>
-      <body>
+      <body style={{ overflowX: "hidden" }}>
 
         {children}
        
